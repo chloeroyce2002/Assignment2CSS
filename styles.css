@@ -1,0 +1,98 @@
+
+/*I wanted all of these headings the same color on all pafes*/
+H1,H2,H3{
+    color:#2F4F4F
+}
+
+/*For this webpage most of my text needed to be centered and I wanted the same font for most of my elements*/
+H1,H2,H3,H4,p{
+    text-align:center;
+    font-family:"Copperplate"
+}
+
+/*A long and light border around the first information on the Home and About page to make them more readable*/
+.first-paragraph,.border{
+    border:solid whitesmoke
+}
+
+/* I gave this class a display of flex so they could be in a row and jusitify content so that there was space between those images */
+.image-row{
+    display: flex;
+    justify-content:space-between
+}
+
+.color{
+    background-color: #FFFFF0;
+}
+
+/*My parent and child classes were to get my table and my steps class side by side on the page*/
+.parent{
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+}
+
+/*Using inline-block property placed the divs side by side, used vertical align:middle to vertically align the two's centers */
+.child{
+    display: inline-block;
+    padding: .5rem .5rem;
+    vertical-align: middle;
+     }
+
+/*I picked two different fonts to use here to distinguish between the steps and information*/
+.steps{ 
+    width: 400px;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 20px;
+    border: 2px solid black;
+    text-align: left;
+    font-family: fantasy;
+}
+
+/*This is the table on the first page, I wanted the border to be thick so I did not collapse it and I wanted all font the same  */
+table,th,td {
+    border: solid black;
+    width: 500px;
+    height: 40px;
+    font-family:Copperplate;
+}
+
+/*This is the fruit image on the about page, I wanted  to center it in the middle of the page, 
+I did this using the elements below*/
+.about-fruit-image{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+/*This made the image have a round border and decided how big it was*/
+.about-fruit-image img{
+    border-radius: 48%;
+    height: 480px;
+    width: 480px;
+}
+
+/*These properties allowed me to move this picture below and centered to the form, there must be a easier way for that but i was strugling witht that picture particularly*/
+.questions{
+    position:fixed;
+    bottom: 70px;
+    left: 35%;
+ }
+
+/*border raidus wasn't working when I put it with the other class so I applied it directly to the image while still using same class*/
+.questions img{
+    border-radius: 48%;
+    height: 300px;
+    
+}
+
+/*I added a class to this to be able to center it on the page*/
+.form{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+}
+
+
+
